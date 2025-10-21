@@ -48,3 +48,5 @@ w="$(echo "scale=6; -1 * ($signed_amp * $volt) / 1000000" | bc)"
 # Stampa formattata a 2 decimali
 printf "%.2f W\n" "$w"
 
+# Watt screen brightness experiment in idle:
+# [1] 1.77 1.80 1.88 2.00 2.10 2.48 2.72 3.39 3.66 4.04
